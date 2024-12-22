@@ -17,7 +17,6 @@ public class CountOfDuplicatesMap {
             if (map.containsKey(num)) {
                 Integer value = map.get(num);
                 map.put(num, ++value );
-                
 
             } else {
                 map.put(num, 1);
